@@ -2,23 +2,14 @@
   Portfolio Website<br/>
   <a href="https://nimitgarg24.netlify.app/" target="_blank">My Portfolio</a>
 </h2>
-<!-- <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div> -->
-
 <br/>
-
 <center>
-
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-
 </center>
 
-
 ## TL;DR
-
 You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to (https://github.com/Brainskull24/PortFolio-website). Thanks!
 
 ## Built With

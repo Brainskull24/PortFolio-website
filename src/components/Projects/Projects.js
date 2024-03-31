@@ -2,12 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import leaf from "../../Assets/Projects/leaf.png";
-// import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-// import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+// import editor from "../../Assets/Projects/codeEditor.png";
+// import chatify from "../../Assets/Projects/chatify.png";
+// import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -20,7 +17,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              // imgPath={chatify}
               isBlog={false}
               title="Heal.ai"
               description="This is a machine learning project which focuses on predicting mental health of a person using effect of phone usage on his daily life as a criteria to predict future outcome."
@@ -31,7 +28,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              // imgPath={bitsOfCode}
               isBlog={false}
               title="relate.ai"
               description="This is a machine learning project which recommends movies on the basis of relativity coefficient according to the keywords you use to search a movie."
@@ -42,7 +39,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              // imgPath={editor}
               isBlog={false}
               title="Codecrafters"
               description="Online code and markdown editor build with react.js and monaco editor. Online Editor which supports html, css, and js code with instant view of website. You can also save your projects and participate in different challenges."
