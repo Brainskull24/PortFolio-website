@@ -19,30 +19,22 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Proficient in C++, C, Python, JavaScript, HTML, and CSS, I am
-              well-equipped to contribute to any team's software development
-              endeavors.
+              I'm Nimit Garg, a passionate software developer specializing in
+              full-stack development and machine learning. Currently pursuing my
+              BE in Computer Science Engineering with a specialization in the
+              Internet of Things at Chandigarh University.
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
-                also in areas related to <b className="purple">Machine Learning.</b>
+                also in areas related to{" "}
+                <b className="purple">Machine Learning.</b>
               </i>
               <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with combining my <i><b className="purple">web development skills</b></i> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Machine Learning skills
-                </b>
-              </i>
-              &nbsp; together to create 
-              <i>
-                <b className="purple"> something innovative.</b>
-              </i>
+              <br />I have a strong foundation in programming languages such as
+              C++, Python, and JavaScript, and extensive experience with
+              technologies like React.js and Node.js.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
