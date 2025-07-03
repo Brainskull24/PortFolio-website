@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://nimitgarg24.netlify.app/" target="_blank">My Portfolio</a>
+  <a href="https://nimitgarg.vercel.app/" target="_blank">My Portfolio</a>
 </h2>
 <br/>
 <center>
