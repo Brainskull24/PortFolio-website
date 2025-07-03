@@ -90,7 +90,7 @@ const Resume = () => {
             Download my resume or view my experience and qualifications below
           </p>
           <a
-            href="/Nimit_Garg_Resume.pdf"
+            href="/Resume.pdf"
             download
             className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg"
           >
