@@ -17,9 +17,10 @@ const Resume = () => {
       location: "Remote",
       duration: "September 2024 - Present",
       description: [
-        "Developed and maintained modular microservices in Java Spring Boot including Thumbnail, SMTP and Scheduler services using Quartz, improving monitoring alert management by 30% and enhancing system automation.",
-        "Worked on Document Management System (DMS) integrated with Elasticsearch, Amazon S3, and Spring Boot, enabling scalable file storage, fast search, and efficient document retrieval across modules by 25%",
-        "Built core backend services like Announcement Center to streamline team communication and track engagement stats by 20%, and optimized the User CRUD service with helper utilities and legacy integrations.",
+        "Engineered & deployed Java + Spring Boot microservices in multiple subsystems, improving alert delivery speed by 30%.",
+        "Refactored Announcement Center module, increasing internal communication engagement by 20%.",
+        "Collaborated in Agile sprints, achieving a 25% acceleration in project delivery timelines.",
+        "Created maintainable and scalable code following system design principles, reducing future maintenance effort by 15%.",
       ],
     },
     {
@@ -28,8 +29,10 @@ const Resume = () => {
       location: "Chandigarh, India",
       duration: "August 2023 - October 2023",
       description: [
-        "Spearheaded the development of a scalable e-Commerce platform using the MERN stack, allowing more than 100 daily transactions. Integrated JWT-based authentication, boosting user security and trust.",
-        "Optimized and integrated front-end and back-end components using React, Node.js and Express.js, resulting in a 30% boost in platform performance and a smoother user experience at all touchpoints.",
+        "Built a React.js e-commerce platform supporting 100+ daily transactions with secure role-based access control and JWT authentication.",
+        "Improved UI responsiveness, reduced load time by 20% through optimized state management API integration.",
+        "Optimized database queries, boosting performance by 25% and improving customer experience.",
+        "Designed reusable front-end components, cutting new feature development time by 15% and ensuring consistent design across the platform.",
       ],
     },
   ];
@@ -41,7 +44,7 @@ const Resume = () => {
       institution: "Chandigarh University",
       location: "Chandigarh, India",
       duration: "2021 - 2025",
-      gpa: "8.18/10",
+      gpa: "8.15/10",
     },
     {
       degree: "Higher Secondary Education",
@@ -53,21 +56,21 @@ const Resume = () => {
   ];
 
   const achievements = [
-    "Qualified in NASA space Hackathon 2023 at zonal level.",
-    "Qualified in Smart India Hackathon 2023 at College Level.",
-    "Solved 350+ DSA questions on Leetcode and GeeksforGeeks platforms.",
+    "Zonal Finalist, NASA Space Hackathon 2023: Led a team of 4 members to develop an innovative EdTech platform concept, competing against 100+ teams nationwide and advancing to the top 15%.",
+    "Hacktoberfest 2022 Contributor: Submitted 5+ quality pull requests across multiple open-source repositories, earning multiple badges and recognition for code quality and collaboration.",
+    "DSA Proficiency: Solved 350+ core algorithmic problems on LeetCode and GeeksforGeeks, maintaining a 90% success rate on medium to hard-level challenges.",
   ];
 
   const skills = {
     Frontend: [
       "React",
       "JavaScript",
+      "TypeScript",
       "HTML5",
       "CSS3",
       "Tailwind CSS",
       "Responsive Design",
       "Redux",
-      "TypeScript",
       "shadcn/ui",
     ],
     Backend: ["Node.js", "Express", "SpringBoot", "REST APIs"],
@@ -77,7 +80,7 @@ const Resume = () => {
 
   return (
     <div className="min-h-screen py-20 px-4">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-5xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">

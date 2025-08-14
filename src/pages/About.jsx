@@ -10,6 +10,12 @@ import {
   SiNextdotjs,
   SiTailwindcss,
   SiTypescript,
+  SiSpringboot,
+  SiPython,
+  SiFirebase,
+  SiPuppeteer,
+  SiCss3,
+  SiHtml5,
 } from "react-icons/si";
 import GitHubCalendar from "react-github-calendar";
 
@@ -18,13 +24,13 @@ const About = () => {
     {
       name: "Frontend Development",
       icon: Globe,
-      level: 90,
+      level: 85,
       color: "from-blue-500 to-cyan-500",
     },
     {
       name: "Backend Development",
       icon: Code,
-      level: 95,
+      level: 90,
       color: "from-cyan-500 to-blue-500",
     },
     {
@@ -33,6 +39,18 @@ const About = () => {
       level: 85,
       color: "from-green-500 to-teal-500",
     },
+    // {
+    //   name: "Aritificial Intelligence",
+    //   icon: Code,
+    //   level: 60,
+    //   color: "from-pink-500 to-pink-700",
+    // },
+    // {
+    //   name: "DevOps",
+    //   icon: Code,
+    //   level: 50,
+    //   color: "from-yellow-500 to-gray-700",
+    // },
   ];
 
   const technologies = [
@@ -61,11 +79,6 @@ const About = () => {
       icon: SiTailwindcss,
       color: "text-cyan-300 border-cyan-400/40",
     },
-    // {
-    //   name: "shadcn/ui",
-    //   icon: SiRadixui,
-    //   color: "text-white border-gray-500/50",
-    // },
     {
       name: "Node.js",
       icon: SiNodedotjs,
@@ -90,6 +103,36 @@ const About = () => {
       name: "Git",
       icon: SiGit,
       color: "text-red-400 border-red-500/50",
+    },
+    {
+      name: "HTML5",
+      icon: SiHtml5,
+      color: "text-orange-500 border-orange-500/50",
+    },
+    {
+      name: "CSS3",
+      icon: SiCss3,
+      color: "text-blue-500 border-blue-500/50",
+    },
+    {
+      name: "Spring Boot",
+      icon: SiSpringboot,
+      color: "text-green-600 border-green-500/50",
+    },
+    {
+      name: "Python",
+      icon: SiPython,
+      color: "text-yellow-300 border-yellow-500/50",
+    },
+    {
+      name: "Firebase",
+      icon: SiFirebase,
+      color: "text-yellow-400 border-yellow-500/50",
+    },
+    {
+      name: "Puppeteer",
+      icon: SiPuppeteer,
+      color: "text-gray-400 border-gray-500/50",
     },
   ];
 
@@ -116,9 +159,9 @@ const About = () => {
             <h2 className="text-3xl font-bold mb-6 text-cyan-400">My Story</h2>
             <div className="space-y-4 text-gray-300">
               <p>
-                I'm Nimit Garg, a passionate software developer currently
-                pursuing my Bachelor's in Computer Science Engineering with a
-                specialization in Internet of Things at Chandigarh University.
+                I'm Nimit Garg, a passionate software developer graduated in
+                Bachelor's in Computer Science Engineering with a specialization
+                in Internet of Things from Chandigarh University.
               </p>
               <p>
                 My journey in tech started with curiosity about how websites
@@ -229,16 +272,16 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
               <div className="bg-gray-700/30 rounded-lg p-4 text-center">
                 <div className="text-2xl font-bold text-cyan-400 mb-1">
-                  150+
+                  500+
                 </div>
                 <div className="text-sm text-gray-400">Contributions</div>
               </div>
               <div className="bg-gray-700/30 rounded-lg p-4 text-center">
-                <div className="text-2xl font-bold text-cyan-400 mb-1">45+</div>
+                <div className="text-2xl font-bold text-cyan-400 mb-1">40+</div>
                 <div className="text-sm text-gray-400">Repositories</div>
               </div>
               <div className="bg-gray-700/30 rounded-lg p-4 text-center">
-                <div className="text-2xl font-bold text-cyan-400 mb-1">10+</div>
+                <div className="text-2xl font-bold text-cyan-400 mb-1">15+</div>
                 <div className="text-sm text-gray-400">Languages & Tools</div>
               </div>
             </div>

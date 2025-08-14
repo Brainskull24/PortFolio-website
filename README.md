@@ -1,52 +1,87 @@
-<h2 align="center">
-  Portfolio Website<br/>
-  <a href="https://nimitgarg.vercel.app/" target="_blank">My Portfolio</a>
+# Nimit Garg's Portfolio Website
+
+<h2 align="left">
+  <a href="https://nimitgarg.vercel.app/" target="_blank">Click to View Live Portfolio</a>
 </h2>
-<br/>
-<center>
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-</center>
 
 ## TL;DR
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to (https://github.com/Brainskull24/PortFolio-website). Thanks!
 
-## Built With
+This is my personal **portfolio website** built with React.js to showcase my **skills, projects, and experience**. You can fork this repo to create your own portfolio. Please provide credit by linking back to [this repository](https://github.com/Brainskull24/PortFolio-website).
 
-This project was built using these technologies.
+---
 
-- React.js
-- Express.js
-- CSS3
+## 🛠 Built With
 
-## Features
+- **React.js** – Frontend library for dynamic UI
+- **Tailwind CSS / CSS3** – Responsive, modern styling
+- **Shadcn/ui** – Pre-built UI components for faster development
 
-**📖 Multi-Page Layout**
+---
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+## ✨ Features
 
-**📱 Fully Responsive**
+- **📖 Multi-Page Layout** – Separate sections for About, Projects, and Resume
+- **🎨 Customizable Styling** – Easy to update colors and themes
+- **📱 Fully Responsive** – Works seamlessly on desktop, tablet, and mobile
+- **⚡ Optimized Performance** – Fast loading, smooth interactions
 
-## Getting Started
+---
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+## 🚀 Getting Started
 
-## 🛠 Installation and Setup Instructions
+### Prerequisites
 
-1. Installation: `npm install`
+- **React.js**
+- **Git**
 
-2. In the project directory, you can run: `npm start`
+### Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+1. Clone the repository:
 
-## Usage Instructions
+```bash
+git clone https://github.com/Brainskull24/PortFolio-website.git
+```
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+2. Navigate into the project directory:
 
-### Show your support
+```bash
+cd PortFolio-website
+```
 
-Give a ⭐ if you like this website!
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm start
+```
+
+Open http://localhost:3000 in your browser. The page reloads automatically on edits.
+
+## ⚙️ Usage
+
+- Navigate to /src/components/ to update your personal info, projects, and skills.
+
+- Add new components to expand the portfolio.
+
+- Customize colors, fonts, and layouts using Tailwind CSS or CSS files.
+
+## 💻 Technologies / Skills Showcased
+
+- JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, MongoDB
+
+- Tailwind CSS, React-Bootstrap, Firebase, Docker, Git
+
+- AI/ML projects, Puppeteer scraping, Axios API integration
+
+## ❤️ Show Your Support
+
+- If you like this project, give it a ⭐ and share feedback!
+
+## 🔗 Live Demo
+
+Check out the live website: https://nimitgarg.vercel.app/

@@ -6,16 +6,16 @@ import {
   ArrowRight,
   Code,
   Sparkles,
-} from "lucide-react"
-import { Link } from "react-router-dom"
+} from "lucide-react";
+import { Link } from "react-router-dom";
 import {
   SiReact,
   SiJavascript,
   SiPython,
   SiNodedotjs,
   SiMongodb,
-  SiDocker,
-} from "react-icons/si"
+  SiCplusplus,
+} from "react-icons/si";
 
 const Home = () => {
   const socialLinks = [
@@ -43,16 +43,16 @@ const Home = () => {
       label: "Email",
       color: "hover:bg-green-600",
     },
-  ]
+  ];
 
   const techIcons = [
-    { name: "React", icon: SiReact },
-    { name: "JavaScript", icon: SiJavascript },
+    { name: "C++", icon: SiCplusplus },
     { name: "Python", icon: SiPython },
+    { name: "JavaScript", icon: SiJavascript },
+    { name: "React", icon: SiReact },
     { name: "Node.js", icon: SiNodedotjs },
     { name: "MongoDB", icon: SiMongodb },
-    { name: "Docker", icon: SiDocker },
-  ]
+  ];
 
   return (
     <div className="min-h-screen flex items-center justify-center px-4 relative overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-black">
@@ -82,8 +82,10 @@ const Home = () => {
               </h2>
 
               <p className="text-lg text-gray-400 max-w-2xl mx-auto lg:mx-0 mb-8 leading-relaxed">
-                I craft digital experiences through code, specializing in full-stack development and machine learning.
-                Currently pursuing BE in Computer Science with IoT at Chandigarh University.
+                I craft digital experiences through code, specializing in
+                full-stack development and working with AI in day to day life.
+                Graduated in BE in Computer Science with IoT from Chandigarh
+                University.
               </p>
             </div>
 
@@ -122,7 +124,6 @@ const Home = () => {
             </div>
           </div>
 
-          {/* RIGHT SECTION - New Avatar + Tech Stack */}
           <div className="flex justify-center lg:justify-end">
             <div className="bg-gray-800/50 p-8 rounded-3xl border border-gray-700 shadow-xl backdrop-blur-md relative w-full max-w-sm">
               {/* Avatar */}
@@ -132,7 +133,7 @@ const Home = () => {
                   {`<FullStackDev />`}
                 </div>
                 <div className="text-gray-300 text-sm">
-                  Currently @ Chandigarh University
+                  Graduate @ Chandigarh University 25'
                 </div>
               </div>
 
@@ -147,7 +148,10 @@ const Home = () => {
                     className="p-3 bg-gray-900 rounded-xl border border-gray-700 hover:bg-cyan-900/30 transition-all duration-300 group"
                     title={name}
                   >
-                    <Icon size={28} className="text-cyan-300 group-hover:scale-110 transition" />
+                    <Icon
+                      size={28}
+                      className="text-cyan-300 group-hover:scale-110 transition"
+                    />
                   </div>
                 ))}
               </div>
@@ -160,7 +164,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
