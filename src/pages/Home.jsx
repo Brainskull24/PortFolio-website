@@ -1,7 +1,6 @@
 import {
   Github,
   Linkedin,
-  Instagram,
   Mail,
   ArrowRight,
   Code,
@@ -11,11 +10,13 @@ import { Link } from "react-router-dom";
 import {
   SiReact,
   SiJavascript,
-  SiPython,
   SiNodedotjs,
   SiMongodb,
   SiCplusplus,
 } from "react-icons/si";
+
+import { BiLogoJava } from "react-icons/bi";
+
 
 const Home = () => {
   const socialLinks = [
@@ -32,12 +33,6 @@ const Home = () => {
       color: "hover:bg-blue-600",
     },
     {
-      icon: Instagram,
-      href: "https://www.instagram.com/nimitgarg24",
-      label: "Instagram",
-      color: "hover:bg-pink-600",
-    },
-    {
       icon: Mail,
       href: "mailto:garg.nimit36@gmail.com",
       label: "Email",
@@ -47,7 +42,7 @@ const Home = () => {
 
   const techIcons = [
     { name: "C++", icon: SiCplusplus },
-    { name: "Python", icon: SiPython },
+    { name: "Java", icon: BiLogoJava },
     { name: "JavaScript", icon: SiJavascript },
     { name: "React", icon: SiReact },
     { name: "Node.js", icon: SiNodedotjs },

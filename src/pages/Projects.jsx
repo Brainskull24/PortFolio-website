@@ -3,11 +3,24 @@ import Zoomix from "../Assets/jntalks.png";
 import SyncSpace from "../Assets/saathi.png";
 import Codecrafters from "../Assets/codecrafters.png";
 import Suppliez from "../Assets/suppliez.png";
+import FileForge from "../Assets/fileforge.png";
+// import IntelliApply from "../Assets/intelliapply.png";
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: "IntelliApply",
+      description:
+        "IntelliApply is a multi-module Spring Boot application handling job processing & asynchronous application submission. Integrated Generative AI (Gemini API) to dynamically parse job descriptions and craft personalized, full HTML email templates for each application.",
+      image: FileForge,
+      technologies: ["Java", "Spring Boot", "MySQL", "Gemini API"],
+      githubUrl: "https://github.com/Brainskull24/IntelliApply",
+      date: "2025",
+      featured: true,
+    },
+    {
+      id: 6,
       title: "Zoomix",
       description:
         "Zoomix is a robust Zoom clone developed using getStream.io and Next.js. This platform offers seamless video conferencing capabilities, real-time chat, and collaborative features, providing users with an efficient and reliable virtual meeting experience.",
@@ -35,7 +48,7 @@ const Projects = () => {
       liveUrl: "https://saathii.vercel.app",
       githubUrl: "https://github.com/Saathi-com/Saathi.com",
       date: "2024",
-      featured: true,
+      featured: false,
     },
     {
       id: 3,
@@ -58,6 +71,18 @@ const Projects = () => {
       technologies: ["React", "Redux", "Node.js", "Express", "MongoDB"],
       githubUrl: "https://github.com/Brainskull24/Suppliez",
       date: "2023",
+      featured: false,
+    },
+    {
+      id: 5,
+      title: "Fileforge",
+      description:
+        "Fileforge is a performant web app handling file uploads, conversions with 15+ file types serving daily active users, enabled AI-powered summarizer generating concise document insights.",
+      image: FileForge,
+      technologies: ["Next.js", "Node.js", "Python FastAPI", "Tailwind CSS"],
+      liveUrl: "https://fileforge-v1.vercel.app/",
+      githubUrl: "https://github.com/Brainskull24/FileForge",
+      date: "2025",
       featured: false,
     },
   ];
@@ -133,15 +158,17 @@ const Projects = () => {
 
                   <div className="flex items-center justify-between">
                     <div className="flex space-x-4">
-                      <a
-                        href={project.liveUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center text-cyan-400 hover:text-cyan-300 transition-colors"
-                      >
-                        <ExternalLink size={16} className="mr-1" />
-                        Live Demo
-                      </a>
+                      {project.liveUrl && (
+                        <a
+                          href={project.liveUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center text-cyan-400 hover:text-cyan-300 transition-colors"
+                        >
+                          <ExternalLink size={16} className="mr-1" />
+                          Live Demo
+                        </a>
+                      )}
                       <a
                         href={project.githubUrl}
                         target="_blank"
@@ -209,15 +236,17 @@ const Projects = () => {
 
                   <div className="flex items-center justify-between">
                     <div className="flex space-x-3">
-                      <a
-                        href={project.liveUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center text-cyan-400 hover:text-cyan-300 transition-colors text-sm"
-                      >
-                        <ExternalLink size={14} className="mr-1" />
-                        Demo
-                      </a>
+                      {project.liveUrl && (
+                        <a
+                          href={project.liveUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center text-cyan-400 hover:text-cyan-300 transition-colors text-sm"
+                        >
+                          <ExternalLink size={14} className="mr-1" />
+                          Demo
+                        </a>
+                      )}
                       <a
                         href={project.githubUrl}
                         target="_blank"

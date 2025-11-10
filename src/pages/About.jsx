@@ -39,18 +39,12 @@ const About = () => {
       level: 85,
       color: "from-green-500 to-teal-500",
     },
-    // {
-    //   name: "Aritificial Intelligence",
-    //   icon: Code,
-    //   level: 60,
-    //   color: "from-pink-500 to-pink-700",
-    // },
-    // {
-    //   name: "DevOps",
-    //   icon: Code,
-    //   level: 50,
-    //   color: "from-yellow-500 to-gray-700",
-    // },
+    {
+      name: "Aritificial Intelligence",
+      icon: Code,
+      level: 60,
+      color: "from-pink-500 to-pink-700",
+    },
   ];
 
   const technologies = [

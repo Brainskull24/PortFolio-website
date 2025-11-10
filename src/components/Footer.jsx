@@ -1,4 +1,4 @@
-import { Heart, Github, Linkedin, Instagram, Mail, Code } from "lucide-react";
+import { Heart, Github, Linkedin, Mail, Code } from "lucide-react";
 
 const Footer = () => {
   const socialLinks = [
@@ -13,12 +13,6 @@ const Footer = () => {
       href: "https://www.linkedin.com/in/nimitgarg24/",
       label: "LinkedIn",
       color: "hover:bg-blue-600",
-    },
-    {
-      icon: Instagram,
-      href: "https://www.instagram.com/gargnimit24",
-      label: "Instagram",
-      color: "hover:bg-pink-600",
     },
     {
       icon: Mail,
